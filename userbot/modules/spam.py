@@ -36,7 +36,7 @@ async def tmeme(e):
     if BOTLOG:
         await e.client.send_message(
             BOTLOG_CHATID, "#WSPAM\n"
-            "TSpam was executed successfully")
+            "WSpam was executed successfully")
 
 
 @register(outgoing=True, pattern="^.spam (.*)")
